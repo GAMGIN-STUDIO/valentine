@@ -193,6 +193,9 @@ body {
 	body {
 		& main {
 			& .wait {
+				& .yes:hover {
+					background-color: palevioletred;
+				}
 				& .yes.done {
 					animation: rotate-mobile 1.5s ease-in-out infinite alternate;
 				}
