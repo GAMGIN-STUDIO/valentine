@@ -2,6 +2,13 @@ const globalObject = {
 	counter : 0
 }
 
+let nickname = '';
+while(nickname === '' || nickname === null){
+	nickname = prompt('Type your nickname please!');
+}
+document.querySelector('.name').innerHTML = `${nickname}`;
+document.querySelector('.name-none').classList.remove('name-none');
+
 const yesBut = document.querySelector('.yes');
 yesBut.addEventListener('click', () => {
 	yesBut.classList.add('done');

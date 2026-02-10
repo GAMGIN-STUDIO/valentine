@@ -74,6 +74,10 @@ body {
 			font-size: 4vw;
 		}
 
+		& h1.name-none {
+			display: none;
+		}
+
 		& .wait {
 			position: relative;
 			width: 100%;
